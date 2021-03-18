@@ -1,0 +1,68 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0%;
+    text-align: center;
+    background-color: #eee;
+}
+
+#header-img{
+    height: 50px;
+    width: 50px;
+}
+
+/* Selects first 2 elements */
+li:nth-last-child(n+2) {
+    padding-right: 200px;
+  }
+.navbar-items{
+    font-size: 50px ;
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+iframe{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+.card-group{
+  margin-left: 220px;
+  padding-bottom: 50px;
+}
